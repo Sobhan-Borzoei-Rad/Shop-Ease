@@ -3,6 +3,8 @@ import ProductList from "./Components/product-list/ProductList";
 import Footer from "./Components/footer/Footer";
 import WelcomeMessage from "./Components/WelcomeMessage";
 import Count from "./Components/Count";
+import ProductSearch from "./Components/header/components/ProductSearch"
+import ProductAvailability from "./Components/ProductAvailability";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <ProductList />
       <Footer />
       <Count />
+      <ProductSearch placeholder="جستوجوی محصول"/>
+      <ProductAvailability />
     </>
   );
 }
