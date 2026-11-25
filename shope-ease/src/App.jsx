@@ -5,6 +5,8 @@ import WelcomeMessage from "./Components/WelcomeMessage";
 import Count from "./Components/Count";
 import ProductSearch from "./Components/header/components/ProductSearch"
 import ProductAvailability from "./Components/ProductAvailability";
+import LoginSystem from "./Components/LoginSystem";
+import UserDashboard from "./Components/UserDashboard";
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
       <ProductList />
       <Footer />
       <Count />
-      <ProductSearch placeholder="جستوجوی محصول"/>
+      <ProductSearch placeholder="جستوجوی محصول" />
       <ProductAvailability />
+      <LoginSystem />
+      <UserDashboard />
     </>
   );
 }
