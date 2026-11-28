@@ -7,6 +7,8 @@ import ProductSearch from "./Components/header/components/ProductSearch"
 import ProductAvailability from "./Components/ProductAvailability";
 import LoginSystem from "./Components/LoginSystem";
 import UserDashboard from "./Components/UserDashboard";
+import ShopDashboard from "./Components/ShopDashboard";
+import ProductManager from "./Components/ProductManager";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <ProductAvailability />
       <LoginSystem />
       <UserDashboard />
+      <ShopDashboard shopName="Ease" />
+      <ProductManager shopName="Ease" />
     </>
   );
 }
